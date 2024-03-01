@@ -22,12 +22,13 @@ Additionally, ensure that the `userRegistrationRepo` function returns the follow
 
 For a valid request body:
 
-jsonCopy code
 
-`{
+```json
+{
   "success": true,
   "res": userdocument
-}` 
+}
+``` 
 
 For errors or an invalid request body:
 
